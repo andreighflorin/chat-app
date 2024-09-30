@@ -1,0 +1,19 @@
+.searchContainer {
+  position: relative;
+}
+
+.searchInput {
+  border-radius: 1rem;
+  width: 100%;
+  border: 1px solid #d1d5db;
+  padding-left: 2.5rem;
+  color: #6b7280;
+  height: 3.5rem;
+}
+
+.searchIcon {
+  position: absolute;
+  top: 1.3rem;
+  left: 1rem;
+  color: #6b7280;
+}
