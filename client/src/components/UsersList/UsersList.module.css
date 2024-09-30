@@ -1,0 +1,130 @@
+.chatList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 22rem;
+}
+
+.chatItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid transparent;
+  cursor: pointer;
+  width: 100%;
+}
+
+.selectedChat {
+  border-color: #ddd;
+  border-width: 1px;
+}
+
+.userInfo {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.profilePic {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.defaultProfilePic {
+  background-color: #9ca3af;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.defaultProfileInitial {
+  color: #fff;
+  font-size: 1.25rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.userDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.userHeader {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.userStatus {
+  display: flex;
+  gap: 4px;
+  align-items: center;
+}
+
+.onlineIndicator {
+  width: 0.75rem;
+  height: 0.75rem;
+  background-color: #047857;
+  border-radius: 50%;
+}
+
+.createChatBtn {
+  padding: 5px;
+  border: 1px solid #1e40af;
+  background-color: #fff;
+  color: #1e40af;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.875rem;
+}
+
+.unreadBadge {
+  background-color: #3b82f6;
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  height: 1.25rem;
+  width: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 16rem;
+}
+
+.messageText {
+  color: #4b5563;
+  font-size: 0.875rem;
+}
+
+.messageDate {
+  color: #6b7280;
+  font-size: 0.875rem;
+}
+
+.unreadMessages {
+  background-color: #3b82f6;
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 9999px;
+  height: 1.25rem;
+  width: 1.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
