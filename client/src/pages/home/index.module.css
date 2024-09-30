@@ -1,0 +1,42 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 100%;
+  max-width: 22rem;
+}
+
+.chatArea {
+  width: 100%;
+}
+
+.emptyChat {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  flex-direction: column;
+}
+
+.chatIcon {
+  width: 100%;
+  max-width: 20rem;
+  height: auto;
+}
+
+.emptyChatText {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #6b7280;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    flex-direction: row;
+  }
+}
