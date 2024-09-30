@@ -1,0 +1,89 @@
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 24rem;
+  border-radius: 8px;
+}
+
+.titleWrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1e40af;
+}
+
+.input {
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 100%;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #1e40af;
+}
+
+.containedBtn {
+  padding: 10px;
+  background-color: #1e40af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.containedBtn:hover {
+  background-color: #1d4ed8;
+}
+
+.disabledBtn {
+  padding: 10px;
+  background-color: #9ca3af;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: not-allowed;
+}
+
+.link {
+  color: #1e40af;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.errorText {
+  color: red;
+  font-size: 0.875rem;
+}
