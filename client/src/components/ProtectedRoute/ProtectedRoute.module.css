@@ -1,0 +1,72 @@
+.container {
+  width: 100%;
+  max-width: 1400px;
+  height: auto;
+  background-color: #f3f4f6;
+  margin: 20px auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  width: 100%;
+  max-width: 30px;
+  margin-right: 5px;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #6b7280;
+}
+
+.brand {
+  color: #6b7280;
+  font-size: 1.5rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.userSection {
+  display: flex;
+  gap: 0.5rem;
+  font-size: 0.875rem;
+  align-items: center;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.profilePic {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 9999px;
+  object-fit: cover;
+}
+
+.username {
+  color: #6b7280;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+.logoutIcon {
+  font-size: 1.25rem;
+  cursor: pointer;
+  color: #ef1414;
+}
+
+.content {
+  padding: 1.25rem;
+}
